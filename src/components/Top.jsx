@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Top = () => {
-  return (
-    <h1>Top component</h1>
-  )
+class Top extends Component {
+  render() {
+    return (
+      <nav>
+        <a className='logo'>
+          <img src='src/img/logo.png' alt='logo' />
+        </a>
+      </nav>
+    )
+  }
 }
 
 export default Top
