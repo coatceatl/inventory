@@ -859,7 +859,19 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Top = function Top() {\n  return _react2.default.createElement(\n    'h2',\n    null,\n    'Top'\n  );\n};\nvar Top2 = function Top2() {\n  return _react2.default.createElement(\n    'h2',\n    null,\n    'Top2'\n  );\n};\nvar Menu = function Menu() {\n  return _react2.default.createElement(\n    'h2',\n    null,\n    'Menu'\n  );\n};\n\nvar App = function App() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _reactRouterDom.BrowserRouter,\n      null,\n      _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: Top })\n      )\n    )\n  );\n};\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/components/App.jsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n\nvar _Top = __webpack_require__(/*! ./Top.jsx */ \"./src/components/Top.jsx\");\n\nvar _Top2 = _interopRequireDefault(_Top);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _reactRouterDom.BrowserRouter,\n      null,\n      _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Top2.default })\n      )\n    )\n  );\n};\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/components/App.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/Top.jsx":
+/*!********************************!*\
+  !*** ./src/components/Top.jsx ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Top = function Top() {\n  return _react2.default.createElement(\n    'h1',\n    null,\n    'Top component'\n  );\n};\n\nexports.default = Top;\n\n//# sourceURL=webpack:///./src/components/Top.jsx?");
 
 /***/ }),
 
