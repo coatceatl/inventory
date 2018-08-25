@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import '../scss/_top.scss';
+
 class Top extends Component {
   render() {
     return (
