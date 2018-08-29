@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Container,
-    Row,
-    Col,
-    Jumbotron,
-    Button
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  Container,
+  Row,
+  Col,
+  Button,
+  Form,
+  FormGroup,
+  Label,
+  Input,
 } from 'reactstrap';
 //import Button from 'Button.jsx';
 
@@ -49,6 +52,14 @@ class Top2 extends Component {
                   <img src='src/img/icon3.png' alt='logo' />
                 </NavLink>
               </div>
+            </Col>
+            <Col>
+              <Form>
+                <FormGroup>
+                  <Label for="exampleSearch">Search</Label>
+                  <Input type="search" name="search" id="exampleSearch" placeholder="search placeholder" />
+                </FormGroup>
+              </Form>
             </Col>
           </Row>
         </Container>
