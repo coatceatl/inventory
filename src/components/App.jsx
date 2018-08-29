@@ -9,6 +9,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <div>
+          <Route path='/' component={Top} />
           <Route path='/' component={Top2} />
         </div>
       </BrowserRouter>
